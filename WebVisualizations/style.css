@@ -62,31 +62,5 @@ h4{
   /* } */ 
 
  
-@include media-breakpoint-down(sm) {
 
 
-
-  body{
-    background-color:black;
-  }
-}
-    
-
-
-/* 
-    .poop-sm-4{
-
-    -ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%;
-   padding-right: 100px;
-    } */
-    @media (max-width:600px){
-
-    .col-sm-12 { 
-  
-      -ms-flex:0 0 25%;flex:0 0 25%;max-width:25%;
-      img {
-      width: 20px;
-      height:20px;
-      }
-    }
-  }
